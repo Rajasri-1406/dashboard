@@ -1,0 +1,32 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-container h2 {
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.dashboard-item {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.rewards-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.rewards-list li {
+  background: #f3e5f5;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  color: #4a148c;
+  font-weight: 500;
+}
