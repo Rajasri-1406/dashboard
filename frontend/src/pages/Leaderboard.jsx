@@ -5,7 +5,8 @@ const Leaderboard = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('https://dashboard-8tgs.onrender.com') // ✅ matches backend route
+    fetch("https://dashboard-ksox.onrender.com/leaderboard")
+
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((err) => console.error('Error fetching leaderboard:', err));
