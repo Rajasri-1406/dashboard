@@ -5,7 +5,7 @@ const Leaderboard = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://dashboard-ksox.onrender.com/leaderboard")
+    fetch("https://dashboard-nr73.onrender.com/leaderboard")
 
       .then((res) => res.json())
       .then((data) => setData(data))
